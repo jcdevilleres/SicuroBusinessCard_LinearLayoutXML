@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ceo.sicurobusinesscard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sicuro_banner"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Sicuro is a specialist provider of communications and technology solutions, data-driven security reporting and mission critical equipment. It has 12 years of experience supplying services, solutions and equipment to clients in challenging and difficult locations across the Middle East, Africa and Eurasia."
+        android:layout_weight="2"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="Read more on our website, www.sicurogroup.com"
+        android:layout_weight=".5"
+        android:paddingLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/location"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Group Headquarters, Dubai (24/7)1703 One Business Bay, Dubai 30964, United Arab Emirates"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Contact no.   +971(4)3635392"
+        android:layout_weight=".5"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Skype:    sicurogroup.dubai.ops"
+        android:layout_weight=".5"
+        android:paddingLeft="10dp"/>
+
+</LinearLayout>
